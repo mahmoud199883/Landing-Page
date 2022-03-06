@@ -1,0 +1,403 @@
+body {
+    height: 4000px;
+    background-color: #f3f3f3 !important;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+
+}
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* start header styling */
+#home {
+    background-image: url(../images/bannerbg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#home .navbar {
+    z-index: 999;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+@media(max-width:768px) {
+    #home .navbar {
+        background-color: rgb(0, 0, 0) !important;
+        z-index: 555;
+    }
+
+    .navbar-toggler-icon {
+        background-color: white !important;
+        padding: 20px !important;
+
+    }
+
+    .navbar-nav {
+        text-align: center !important;
+    }
+
+    .navbar-nav .nav-link {
+        color: #fff !important;
+    }
+}
+
+.headercontent h1 {
+    color: #333b46;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 38px
+}
+
+.headercontent p {
+    font-size: 16px;
+    color: #81868e;
+    font-family: 'opensans-regular';
+    font-weight: 100;
+    letter-spacing: .37rem;
+}
+
+
+
+
+.nav-item .nav-link:hover,
+.nav-item:active {
+    color: #e84c3d !important;
+}
+.navbar
+{
+    background-color: transparent;  
+    position: fixed !important;
+    top:0;
+    right: 0;
+}
+
+/* end header styling */
+.main-color-two {
+    color: #e84c3d !important;
+}
+.main-bg
+{
+    background-color: #e84c3d !important;
+}
+
+.main-color {
+    color: #767676;
+}
+
+/* start about section styling */
+
+#about {
+    margin-top: 128px !important;
+
+}
+
+.brd {
+    width: 20%;
+    height: 2px;
+    background-color: #898989 !important;
+    margin: 10px 0;
+}
+
+.brd-w {
+    width: 20%;
+    height: 2px;
+    background-color: #fff !important;
+}
+
+.brd-center {
+    width: 10%;
+    height: 2px;
+    background-color: #898989 !important;
+    margin: 10px 0;
+}
+
+/* end about section styling  */
+
+
+
+/* start services section styling */
+
+#services {
+    margin-top: 128px !important;
+
+}
+
+#services .services-types i {
+    color: #fff;
+    font-size: 50px;
+    background: #e84c3d;
+    padding: 20px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 62px;
+}
+
+.services-types {
+    transition: all ease-in-out 0.3s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.services-types {
+    /* background-color: #e84c3d; */
+    padding: 2rem;
+    border: solid #ddd 2px;
+}
+
+.services-types:hover i {
+    color: #e84c3d !important;
+    background: #fff !important;
+}
+
+.services-types:hover {
+    background-color: #e84c3d;
+    color: #fff !important;
+}
+
+.services-types:hover p {
+    color: #fff !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.services-types:hover .brd {
+    background-color: #fff !important;
+}
+
+
+#services .rating {
+    margin-top: 128px;
+    background-image: url(../images/counterbg.jpg);
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.rating .rating-overlay,
+.subscribe-overlay {
+    background-color: rgba(221, 80, 65, 0.70);
+    height: 100%;
+}
+
+.rating span {
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.rating h3 {
+    font-size: 16px;
+    font-weight: lighter;
+
+}
+
+/* end service section styling */
+
+/* start steps section styling */
+#steps {
+    margin-top: 128px 0 !important;
+
+
+
+}
+
+#steps i {
+    color: #fff;
+    font-size: 40px;
+    background: #e84c3d;
+    padding: 20px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 62px;
+
+}
+
+
+
+/* start styling feature section */
+#featured {
+    margin-top: 128px;
+}
+
+
+
+/* start styling best services section  */
+
+#best-services {
+    margin-top: 128px;
+
+}
+
+.best-services-container {
+    background-color: #e84c3d !important;
+
+}
+
+.exploring {
+    background-image: url(../images/businessbg.jpg);
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.exploring .overlay {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff !important;
+    height: 100%;
+
+}
+
+
+/* crew section styling */
+
+#crew {
+    margin-top: 100PX;
+}
+
+.crew-person {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.crew-person .crew-social {
+    width: 100%;
+    color: #fff !important;
+    background-color: rgba(221, 80, 65, 0.70) !important;
+    position: absolute;
+    right: 0px;
+    top: -45%;
+    transition: all 1s ease-in-out;
+
+}
+
+.crew-person:hover .crew-social {
+    top: 0%;
+}
+
+.crew-social a {
+    color: #fff !important;
+}
+
+.crew-social i {
+    color: #fff !important;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+/* end styling crew section */
+
+/* start styling subscribe section */
+
+#subscribe {
+    margin-top: 128px;
+    background-image: url(../images/subcribecebg.jpg);
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+#testimonials {
+    background-image: url(../images/testbg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+#testimonials .overlay {
+    color: #fff !important;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slider-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 150px;
+    margin: auto;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 100px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 100px;
+}
+
+
+/* start blog styling */
+#blog {
+    margin-top: 128px;
+}
+
+
+.blog-container {
+    height: 400px;
+}
+
+.blog-data {
+    background-color: #e84c3d;
+    color: #fff !important;
+
+}
+
+/* start pricing section styling */
+#pricing {
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.center-price {
+    box-shadow: -2px 0px 10px 2px rgba(0, 0, 0, 0.5) !important;
+}
+
+.price-plan h4 {
+    background-color: #e84c3d;
+    padding: 1.5rem;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.price-plan h3 {
+    color: #e84c3d;
+    padding: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* start contact footer */
+
+#contacts
+{
+    margin-top: 128px;
+}
+footer p 
+{
+    font-size: 1.2rem;
+}
+
+
+
